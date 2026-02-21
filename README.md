@@ -1,4 +1,4 @@
-# Adaptability-Stability-in-Watermelon
+# Adaptability Stability in Watermelon
 
 This repository presents the data and scripts that support the research published in the journal CBAB - http://dx.doi.org/10.1590/1984-70332026v26n2a17.
 
