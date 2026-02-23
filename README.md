@@ -33,7 +33,6 @@ The analysis is performed in the following steps:
 4. Bayesian inference (linear model with common beta)
 5. Bayesian inference (segmented model)
 6. Stability parameter (S²d) computation
-7. Graphical output of genotype response curves
 
 ### Input Data Format
 
