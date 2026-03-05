@@ -47,35 +47,35 @@ The design assumes a randomized complete block design within each environment.
 
 ### ANOVA Model
 
-Y_ijk = μ + A_j + G_i + (GA)_ij + B_k(A_j) + ε_ijk
+$Y_{ijk} = \mu + E_j + G_i + (GE)_{ij} + B_k(E_j) + \epsilon_ijk$
 
 Where:
-- A_j = environment effect
-- G_i = genotype effect
-- GA_ij = genotype × environment interaction
-- B_k(A_j) = block within environment
-- ε_ijk = experimental error
+- $E_j$ = environment effect
+- $G_i$ = genotype effect
+- $GE_{ij}$ = genotype × environment interaction
+- $B_k(E_j)$ = block within environment
+- $\epsilon_{ijk}$ = experimental error
 
 ### Bayesian Segmented Model (Toler, 1998)
 
 For each genotype:
 
-Y_ij = α_i + β1_i μ_j^- + β2_i μ_j^+ + ε_ij
+$Y_{ij} = α_i + β1_i μ_j^- + β2_i μ_j^+ + \epsilon_{ij}$
 
 Where:
-- μ_j is the environmental index
-- μ_j^- = μ_j if μ_j ≤ 0
-- μ_j^+ = μ_j if μ_j > 0
-- ε_ij ~ Normal(0, σ²)
+- $μ_j$ is the environmental index
+- $μ_j^- = μ_j if μ_j ≤ 0$
+- $μ_j^+ = μ_j if μ_j > 0$
+- $ε_ij \sim Normal(0, σ²)$
 
-### Stability Parameter (S²d)
+### Stability Parameter ($S^2_d$)
 
-S²d = (QMD_i × r − QMR) / r
+$S^2_d = \frac{(QMD_i ~ \times ~ r − QMR)}{r}$
 
 Where:
-- QMD_i = mean square deviation from regression
-- QMR = residual mean square from global ANOVA
-- r = number of replications
+- $QMD_i$ = mean square deviation from regression
+- $QMR$ = residual mean square from global ANOVA
+- $r$ = number of replications
 
 QMR is obtained from the classical ANOVA model.
 
