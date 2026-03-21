@@ -116,5 +116,6 @@ Required packages:
 
 If you use this code, please cite:
 
-Pereira CCA, Lima MMF, Martins AF, Lima FF, Almeida NTB, Silva EM, Silveira LM and Glauber Henrique de Sousa Nunes GHS (2026) Bayesian estimation of adaptability and stability parameters in watermelon genotypes using the Toler model. Crop Breeding Applied Biotechnology xx: xxx-xxx. http://dx.doi.org/10.1590/1984-70332026v26n2a17 (_This article is in the process of being published; the reference will be updated when it is published_)
 
+
+Pereira CCA, Lima MMF, Martins AF, Lima FF, Almeida NTB, Silva EM, Silveira LM and Glauber Henrique de Sousa Nunes GHS (2026) Bayesian estimation of adaptability and stability parameters in watermelon genotypes using the Toler model. Crop Breeding and Applied Biotechnology 26(1): e54242622, 2026 Brazilian Society of Plant Breeding. Printed in Brazil http://dx.doi.org/10.1590/198470332026v26n2a17.
